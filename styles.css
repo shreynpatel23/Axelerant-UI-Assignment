@@ -1,0 +1,120 @@
+input:focus{
+    box-shadow: none;
+}
+.buttonBack {
+    border-radius: 36px;
+    background-color: #ef3b00;
+    display: inline-flex;
+}
+
+.hover {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+}
+
+.contentArea {
+    background: url('img/backgroundImage.png');
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid #aaaaaa;
+    padding: 40px;
+}
+
+.img-width {
+    width: 600px;
+    height: 350px;
+}
+
+.row {
+    align-items: center;
+}
+
+.testimonialBack {
+    background: #f7f7f7;
+}
+.cardBack{
+    box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.25);
+    border: solid 1px #efedeb;
+    background-color: #ffffff;
+    border-radius: 18px;
+}
+.rotate{
+    transform: rotate(180deg);
+    position: relative;
+}
+.triangle-box{
+    position: absolute;
+    bottom: -5px;
+    right: 30px;
+}
+.triangle{
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #fff;
+}
+.contactUSBack{
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background: url('img/bg-img.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.85); 
+}
+.footer{
+    background-color: #000;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 481px) and (max-width: 767px) {
+    .box {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img-width {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .box {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img-width {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+/*  IPAD MEDIA QUERY */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .img-width {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+/*  IPAD PRO MEDIA QUERY BELOW */
+@media screen and (min-width:1024px) and (max-width:1199px) {
+    .img-width {
+        width: 400px;
+        height: 280px;
+    }
+}
